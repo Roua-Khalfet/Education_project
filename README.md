@@ -88,14 +88,22 @@ Step 3: Follow the on-screen instructions to explore each feature.
 
 6. Demo
 Screenshots:
+1) Homepage
 ![image](https://github.com/user-attachments/assets/7067165c-47c7-48aa-9508-581d05f0a00e)
+2) Nos cours
 ![image](https://github.com/user-attachments/assets/f235ac58-43f0-4820-938c-46d38003f0f3)
+3) French test using text to speech and speech to text
 ![image](https://github.com/user-attachments/assets/58edab14-80c7-4448-91aa-85a27b5affe6)
+4) Creating chemical reactions by simulating atomic interactions
 ![image](https://github.com/user-attachments/assets/95dc1f3c-49e7-4b26-aa6e-e045d91c826d)
 ![Uploading image (1).png…]()
+5) Visualizing molecules via 3D atomes
 ![image](https://github.com/user-attachments/assets/f9f9fa8c-bbc6-467a-b079-63f425f1b2da)
+6) Accessible services for disabled people
 ![image](https://github.com/user-attachments/assets/6c86431c-4d2f-45f4-8613-bc93f2cdfa27)
+7) Translating sign language to text 
 ![image](https://github.com/user-attachments/assets/33b0fbc6-8184-4c67-ac67-c90546cb3902)
+8) Virual keyboards 
 ![image](https://github.com/user-attachments/assets/a37a4f2c-a61d-4891-b29f-f2d1bd02b996)
 
 
@@ -136,3 +144,6 @@ If you'd like to use or adapt this project, please contact us for permission.
 Mentors and sponsors of the hackathon.
 Resources like OpenCV, Flask documentation, and Unity toolkit.
 Open-source contributors who inspired this project.
+
+12. Datasets
+https://www.kaggle.com/datasets/hojjatk/mnist-dataset

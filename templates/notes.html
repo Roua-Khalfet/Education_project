@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Notes - Eye-Controlled Keyboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .notes-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .status-message {
+            text-align: center;
+            color: #666;
+            margin: 20px 0;
+        }
+        .output {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="notes-container">
+        <h1>Note Taking</h1>
+        <div class="status-message">
+            <p>The eye-controlled keyboard has been launched.</p>
+            <p>Please look at the keyboard window to start typing.</p>
+        </div>
+        <div class="output">
+            <h2>Keyboard Output:</h2>
+            <p>{{ output }}</p>
+        </div>
+    </div>
+</body>
+</html>

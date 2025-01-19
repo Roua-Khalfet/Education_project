@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+      Education &mdash; Free Website Template, Free HTML5 Template by
+      freehtml5.co
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Free HTML5 Website Template by freehtml5.co"
+    />
+    <meta
+      name="keywords"
+      content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"
+    />
+    <meta name="author" content="freehtml5.co" />
+
+    <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,2000"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="static/css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="static/css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="static/css/bootstrap.css" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="static/css/magnific-popup.css" />
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css" />
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="static/css/flexslider.css" />
+
+    <!-- Pricing -->
+    <link rel="stylesheet" href="static/css/pricing.css" />
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="static/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+	<style>
+        /* Existing styles remain the same */
+        .molecule-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Increased from 300px */
+			gap: 2rem;
+			padding: 2rem;
+		}
+        .molecule-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .molecule-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .molecule-header {
+            padding: 1rem;
+            background: #4F46E5;
+            color: white;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .molecule-content {
+            padding: 1rem;
+        }
+
+        /* Modified styles for H₂O molecule card */
+        .molecule-images {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap; /* Prevent wrapping */
+            padding: 0.5rem;
+        }
+
+        .molecule-image {
+			width: 100%; /* Allow images to fit within their container */
+			max-width: 200px; /* Limit width to 200px */
+			height: auto; /* Maintain aspect ratio */
+			max-height: 200px; /* Limit height to 200px */
+			object-fit: cover; /* Ensure the image covers the area without distortion */
+			border-radius: 8px;
+			transition: transform 0.2s ease;
+		}
+
+        .molecule-image:hover {
+            transform: scale(1.05);
+        }
+
+        /* Other styles remain the same */
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #1F2937;
+            margin: 2rem 0;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: #4F46E5;
+            border-radius: 2px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="fh5co-loader"></div>
+
+    <div id="page">
+      <nav class="fh5co-nav" role="navigation">
+        <div class="top">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 text-right">
+                <p class="site">www.yourdomainname.com</p>
+                <p class="num">Call: +01 123 456 7890</p>
+                <ul class="fh5co-social">
+                  <li>
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-twitter2"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-dribbble2"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-menu">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-2">
+                <div id="fh5co-logo">
+                  <a href="index.html"
+                    ><i class="icon-study"></i>Educ<span>.</span></a
+                  >
+                </div>
+              </div>
+              <div class="col-xs-10 text-right menu-1">
+                <ul>
+                  <li><a href="/">Accueil</a></li>
+                  <li class="active"><a href="/courses">Cours</a></li>
+                  <li><a href="/teacher">Services d'Accessibilité</a></li>
+                  <li><a href="/about">À propos</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                  <li class="btn-cta">
+                    <a href="#"><span>Connexion</span></a>
+                  </li>
+                  <li class="btn-cta">
+                    <a href="#"><span>Créer un cours</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <br />
+      <hr />
+      <br />
+
+      <section class="molecules-section">
+        <h2 class="section-title">Tableau des Molécules</h2>
+        <div class="molecule-grid">
+            <!-- Single Atom -->
+            <div class="molecule-card">
+                <div class="molecule-header">H</div>
+                <div class="molecule-content">
+                    <div class="molecule-images">
+                        <img src="static/images/hydrogen_1.jpg" alt="Hydrogène" class="molecule-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Water Molecule -->
+            <div class="molecule-card">
+                <div class="molecule-header">H₂O</div>
+                <div class="molecule-content">
+                    <div class="molecule-images">
+                        <img src="static/images/hydrogen_1.jpg" alt="Hydrogène 1" class="molecule-image">
+                        <img src="static/images/oxygen.jpg" alt="Oxygène" class="molecule-image">
+                        <img src="static/images/hydrogen_2.jpg" alt="Hydrogène 2" class="molecule-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carbon -->
+            <div class="molecule-card">
+                <div class="molecule-header">C</div>
+                <div class="molecule-content">
+                    <div class="molecule-images">
+                        <img src="static/images/carbon.jpg" alt="Carbone" class="molecule-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nitrogen -->
+            <div class="molecule-card">
+                <div class="molecule-header">N</div>
+                <div class="molecule-content">
+                    <div class="molecule-images">
+                        <img src="static/images/nitrogen.jpg" alt="Azote" class="molecule-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phosphorus -->
+            <div class="molecule-card">
+                <div class="molecule-header">P</div>
+                <div class="molecule-content">
+                    <div class="molecule-images">
+                        <img src="static/images/phosphorus.jpg" alt="Phosphore" class="molecule-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aluminum -->
+            <div class="molecule-card">
+                <div class="molecule-header">Al</div>
+                <div class="molecule-content">
+                    <div class="molecule-images">
+                        <img src="static/images/aluminum.jpg" alt="Aluminium" class="molecule-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <br />
+      <hr />
+      <br />
+
+      <footer
+        id="fh5co-footer"
+        role="contentinfo"
+        style="background-image: url(static/images/img_bg_4.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row row-pb-md">
+            <div class="col-md-3 fh5co-widget">
+              <h3>À propos</h3>
+              <p>
+                Nous nous engageons à offrir des ressources éducatives
+                accessibles et de qualité pour tous, favorisant l'apprentissage
+                et le développement personnel.
+              </p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+              <h3>Navigation</h3>
+              <ul class="fh5co-footer-links">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/courses">Cours</a></li>
+                <li><a href="/teacher">Services d'Accessibilité</a></li>
+                <li><a href="/about">À propos</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+              <h3>Actions</h3>
+              <ul class="fh5co-footer-links">
+                <li><a href="#">Connexion</a></li>
+                <li><a href="#">Créer un cours</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+              <h3>Contactez-nous</h3>
+              <ul class="fh5co-footer-links">
+                <li>
+                  <a href="mailto:info@education.com">info@education.com</a>
+                </li>
+                <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+                <li><a href="/contact">Formulaire de Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row copyright">
+            <div class="col-md-12 text-center">
+              <p>
+                <small class="block"
+                  >&copy; 2025 Éducation. Tous droits réservés.</small
+                >
+                <small class="block"
+                  >Conçu par
+                  <a href="http://freehtml5.co/" target="_blank"
+                    >FreeHTML5.co</a
+                  >
+                  Images :
+                  <a href="http://unsplash.co/" target="_blank">Unsplash</a>
+                  &amp;
+                  <a href="https://www.pexels.com/" target="_blank"
+                    >Pexels</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="static/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="static/js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="static/js/jquery.stellar.min.js"></script>
+    <!-- Carousel -->
+    <script src="static/js/owl.carousel.min.js"></script>
+    <!-- Flexslider -->
+    <script src="static/js/jquery.flexslider-min.js"></script>
+    <!-- countTo -->
+    <script src="static/js/jquery.countTo.js"></script>
+    <!-- Magnific Popup -->
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/magnific-popup-options.js"></script>
+    <!-- Count Down -->
+    <script src="static/js/simplyCountdown.js"></script>
+    <!-- Main -->
+    <script src="static/js/main.js"></script>
+    <script>
+      var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
+
+      // default example
+      simplyCountdown(".simply-countdown-one", {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+      });
+
+      //jQuery example
+      $("#simply-countdown-losange").simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false,
+      });
+    </script>
+  </body>
+</html>

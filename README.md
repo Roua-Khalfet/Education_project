@@ -67,9 +67,9 @@ Other Libraries:
 Installation Steps
 
 Clone the repository:
-    git clone https://github.com/yourusername/projectname.git
+    git clone https://github.com/Roua-Khalfet/Education_project.git
 Navigate to the project directory:
-    cd projectname
+    cd Education_project
 Install dependencies:
     pip install -r requirements.txt
 Run the application:
